@@ -8,6 +8,25 @@
     <style>
       body {
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+        gap: 1em;
+      }
+
+      header {
+        grid-column: 1/-1;
+      }
+
+      nav {
+        grid-column: 1;
+      }
+
+      main {
+        grid-column: 2/-1;
+      }
+
+      footer {
+        grid-column: 1/-1;
       }
       /* Doe hier jouw ding! */
     </style>
